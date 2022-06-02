@@ -1,0 +1,44 @@
+.header{
+    $height: 1.4583rem;
+
+    &__blue-line{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: $height;
+        z-index: 2;
+        background-color: $blueLight;
+    }
+
+    &__github{
+        position: absolute;
+        left: 0;
+        z-index: 3;
+        line-height: $height;
+        padding-left: 0.8333rem;
+
+        &__logo{
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0.125rem;
+        }
+
+        &__caption{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.45833rem;
+            font-weight: 600;
+            color: #d3ebfa;
+        }
+    }
+
+    &__date{
+        position: absolute;
+        z-index: 3;
+        right: 0;
+        top: $height;
+        color: $greyVeryDark;
+        font-size: 0.45833rem;
+        margin: 0.8333rem 1.6667rem;
+    }
+}

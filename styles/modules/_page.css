@@ -1,0 +1,25 @@
+.page{
+    &__left{
+        height: $pageHeight;
+        width: 35%;
+        padding: 3.125rem 1.66667rem 1.66667rem 1.66667rem;
+        overflow: hidden;
+        color: $greyLight;
+
+        &--dark{
+            background-color: $greyDark;
+        }
+    }
+
+    &__right{
+        height: $pageHeight;
+        width: 65%;
+        padding: 3.125rem 1.66667rem 1.66667rem 1.66667rem;
+        overflow: hidden;
+        color: $greyVeryDark;
+
+        a{
+            color: $greyVeryDark;
+        }
+    }
+}
