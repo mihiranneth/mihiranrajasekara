@@ -1645,7 +1645,7 @@ template {
 /* colors */
 
  html {
-  background-image: url("/Users/mihiranrajasekara/cv/untitled folder/images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
