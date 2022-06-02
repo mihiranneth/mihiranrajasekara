@@ -1656,7 +1656,7 @@ template {
   -webkit-transform-origin: 50% 0;
   -ms-transform-origin: 50% 0;
   transform-origin: 50% 0;
-}  
+}   
 
 
 
@@ -1780,7 +1780,7 @@ a {
   height: 10.125rem;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: url("../images/profile-photo.jpg") center center/contain no-repeat;
+  background: url("../images/profile-photo1.jpg") center center/contain no-repeat;
 }
 
 .feature {
